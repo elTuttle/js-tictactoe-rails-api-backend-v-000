@@ -3,6 +3,9 @@ class GamesController < ApplicationController
 
   def index
     @games = Game.all
+    @games.each do |game|
+      render json: game
+    end
   end
 
   def create
