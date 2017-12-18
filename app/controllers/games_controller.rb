@@ -7,4 +7,8 @@ class GamesController < ApplicationController
     game_path @game
   end
 
+  def show
+    
+  end
+
 end
