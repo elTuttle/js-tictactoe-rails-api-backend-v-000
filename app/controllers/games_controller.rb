@@ -4,4 +4,8 @@ class GamesController < ApplicationController
     @game = Game.new(state: [" "," "," "," "," "," "," "," "," "])
   end
 
+  def create
+    
+  end
+
 end
